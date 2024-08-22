@@ -59,9 +59,19 @@ h1{
     margin-left: 15px;
     margin-top: 25px;
     position: relative;
-    font-size: 30;
+    font-size: 40px;
+    color: rgb(212, 5, 119);
+    font-weight: bolder;
+    
 }
 .buttons{
     display: grid;
     grid-template-columns: auto auto auto auto;
+}
+
+#calculate{
+    background-color: rgb(212, 5, 119);
+    border: 3px solid rgb(255, 255, 255);
+    color: white
+
 }
