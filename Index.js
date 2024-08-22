@@ -1,7 +1,7 @@
 
 function typeToDisplay(input)
 {
-    
+
 }
 
 function showResult()
@@ -9,3 +9,12 @@ function showResult()
 
 }
 
+function clearAll()
+{
+
+}
+
+function clearEntry()
+{
+    
+}
