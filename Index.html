@@ -7,7 +7,7 @@
                 <h1>Calculator</h1>
             </header>
             <div id="calculator-body">
-                <input id="display" readonly>
+                <input id="txt-display">
 
                 <div class="buttons">
 
@@ -15,8 +15,8 @@
                     c
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-sqr-root">
-                    √                    
+                    <button onclick="typeToDisplay()" id="btn-zero">
+                    0                    
                     </button>
                     
                     <button onclick="clearEntry()" id="btn-clear-entry">
@@ -59,7 +59,7 @@
                     -    
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-one">
+                    <button onclick="btnOneClick()" id="btn-one">
                     1    
                     </button>
 
