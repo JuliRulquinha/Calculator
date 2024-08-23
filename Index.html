@@ -11,27 +11,21 @@
 
                 <div class="buttons">
 
-                    <button onclick="clearAll()" id="btn-clear-all">
-                    c
-                    </button>
-
-                    <button onclick="typeToDisplay()" id="btn-zero">
-                    0                    
-                    </button>
+                   
 
                     <button onclick="typeToDisplay()" id="btn-divide">
                     ÷   
                     </button>
 
-                    <button onclick="typeToDisplay('7')" id="btn-seven">
+                    <button onclick="btnSevenClick('7')" id="btn-seven">
                     7  
                     </button>
                     
-                    <button onclick="typeToDisplay()" id="btn-eight">
+                    <button onclick="btnEightClick()" id="btn-eight">
                     8    
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-nine">
+                    <button onclick="btnNineClick()" id="btn-nine">
                     9    
                     </button>
 
@@ -39,15 +33,15 @@
                     x    
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-four">
+                    <button onclick="btnFourClick()" id="btn-four">
                     4    
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-five">
+                    <button onclick="btnFiveClick()" id="btn-five">
                     5
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-six">
+                    <button onclick="btnSixClick()" id="btn-six">
                     6    
                     </button>
 
@@ -55,21 +49,35 @@
                     -    
                     </button>
 
-                    <button onclick="btnOneClick()" id="btn-one">
+                    <button onclick="btnOneClick()()" id="btn-one">
                     1    
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-two">
+                    <button onclick="btnTwoClick()" id="btn-two">
                     2
                     </button>
 
-                    <button onclick="typeToDisplay()" id="btn-three">
+                    <button onclick="btnThreeClick()" id="btn-three">
                     3  
                     </button>
+
+                    <button id="plus-sign">
+                        +
+                    </button>
                     
+                    <button onclick="btnZeroClick()" id="btn-zero">
+                        0                    
+                    </button>
+                    
+                   
+                    <button onclick="clearAll()" id="btn-clear-all">
+                        c
+                    </button> 
+
                     <button onclick="showResult()" id="calculate">
                     =   
                     </button>
+    
                 </div>
                 
                 </div>
